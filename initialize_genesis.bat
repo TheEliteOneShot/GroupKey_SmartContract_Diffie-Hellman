@@ -1,0 +1,1 @@
+geth --datadir "./BlockchainData/" init "genesis.json"

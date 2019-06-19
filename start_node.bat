@@ -1,0 +1,1 @@
+geth --identity "MyTestNetNode" --nodiscover --rpc --rpcport "8545" --rpccorsdomain "*" --datadir ./BlockchainData --port "30312" -networkid 1234 --nat "any" console
