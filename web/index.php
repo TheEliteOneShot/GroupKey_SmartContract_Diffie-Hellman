@@ -623,11 +623,6 @@
           var calculatedSecret;
           var notificationList = "";
 
-          // CURRENTLY WORKING here
-          //OBJECTIVE: Get the Shared Secret to work. The decryption didn't work last night. Make sure to SAVE THE PRIVATE KEY for easier processing!
-          //Once the shared secret works, save the contents to IPFS and send to parser. If the shared secret mechanics work with the large numbers this prototype is complete.
-          //If you cannot get it to work with the large numbers (Precision doesn't work with BIGINT), decrease the size of the numbers.
-
           console.log("Beginning Iteration");
           selectedUserList.forEach( function (user) {
 
